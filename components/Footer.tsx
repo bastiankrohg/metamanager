@@ -6,7 +6,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">MetaManager</h3>
             <p className="text-gray-400">
-              Transform your website’s SEO and online presence with MetaManager. Delivering tools for better visibility, higher traffic, and growth.
+              MetaManager - The no-code, one-stop-shop platform for SEO. Metamanager is a SaaS platform for SEO founded by Erik in August 2021 and was born from many lost opportunities. Our vision is to improve SEO workflows, make optimization more available for non-nerds and become one of the best one-stop-shop SEO platforms out there.
             </p>
           </div>
   
