@@ -33,16 +33,17 @@ const Features = () => {
         </h2>
 
         {/* Feature Buttons */}
-        <div className="mb-12 flex justify-center gap-x-6">
+        <div className="mb-12 flex flex-wrap justify-center gap-4">
           {features.map((feature, index) => (
             <button
               key={index}
               onClick={() => setSelectedFeature(feature)}
-              className={`flex items-center justify-center py-2 px-6 rounded-full text-lg font-medium whitespace-normal w-60 h-16 transition-all ${
-                selectedFeature.title === feature.title
-                  ? "bg-black text-white"
-                  : "text-gray-800 hover:bg-gray-300"
-              }`}
+              className={`flex items-center justify-center text-center py-2 px-6 rounded-full font-medium transition-all 
+                whitespace-normal w-full sm:w-60 h-16 text-sm sm:text-lg ${
+                  selectedFeature.title === feature.title
+                    ? "bg-black text-white"
+                    : "text-gray-800 hover:bg-gray-300"
+                }`}
             >
               {feature.title}
             </button>
